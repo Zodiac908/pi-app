@@ -1,0 +1,4 @@
+pi_app_config_version: 2
+hosting:
+  public_dir: ./
+  index_document: index.html
