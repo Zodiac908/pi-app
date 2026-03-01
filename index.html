@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="rtl">
 <head>
-    <title>Redirect to APEX</title>
-    <script>
-        // استبدل الرابط أدناه برابط تطبيق أوراكل أبيكس الخاص بك
-        window.location.href = "https://gb6be47e8c91758-digitalvault.adb.me-dubai-1.oraclecloudapps.com/ords/r/digitalvalt/pi-digital-vault/home";
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaultdigital for Pi | Vaultdigital for Pi</title>
+    <script src="https://sdk.minepi.com/pi-sdk.js"></script>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; font-family: sans-serif; }
+        iframe { border: none; width: 100%; height: 100%; }
+        .loading { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+    </style>
 </head>
 <body>
-    <p>جاري التحويل إلى التطبيق...</p>
+
+    <iframe src="https://gb6be47e8c91758-digitalvault.adb.me-dubai-1.oraclecloudapps.com/ords/r/digitalvalt/vault_digital_for_pi/login" id="app-iframe"></iframe>
+
+    <script>
+        // ????? ??? Pi SDK
+        const Pi = window.Pi;
+        Pi.init({ version: "2.0", sandbox: true }); // ???? sandbox: false ??? ????? ???????
+
+        // ????? ??? ????? ??? ????? ?????? ???????? ?? Pi ??? ???? ??????
+    </script>
 </body>
 </html>
